@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bird Shooter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="backbg" class="background">
+    </div>
+    <div class="score" id="scores">Рахунок : <span id="scorecount">0</span></div>
+    <div id="dog"> 
+    </div>
+    <div>
+        <button id="btnstart" onclick="startgame()">Почати</button>
+    </div>
+    <canvas id="collcanvas" class="collcanvas"></canvas>
+    <canvas id="canvas1" class="canvas1">
+    </canvas>
+    <div id="grass" class="background">
+    </div>
+    <script src="birddrop.js"></script>
+    <script src="bird.js"></script>
+    <script src="bomb.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
